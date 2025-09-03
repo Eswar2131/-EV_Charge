@@ -1,47 +1,49 @@
-# EV Charge Demand Forecasting 🚗🔌
 
-A powerful demand-forecasting toolkit for electric vehicle (EV) charging stations using machine learning techniques. This project enables forecasting future EV charging demands to optimize infrastructure and ensure sustainable energy planning.
 
----
+# ⚡ EV Charge Demand Forecasting 🚗🔋
 
-## 🚀 Features
-
-* Data preprocessing and feature engineering pipeline
-* Customizable model training and evaluation
-* Time-series forecasting using ML models (e.g., LSTM)
-* Visualizations for trends and demand patterns
-* Easy-to-configure experiments
+A machine learning–based project to forecast **electric vehicle (EV) charging demand**. This project helps optimize charging station planning, infrastructure investments, and energy distribution for a sustainable future.
 
 ---
 
-## 📁 Repository Structure
+## 🚀 Key Features
+
+* 📊 Data cleaning and preprocessing pipeline
+* 🧠 Model training and evaluation framework
+* ⏳ Time-series demand forecasting (support for ML/DL models)
+* 📈 Visual dashboards for demand insights
+* ⚙️ Easy-to-configure experiments
+
+---
+
+## 📂 Project Structure
 
 ```
-EV-Charge-Demand/
-├── data/                  # Raw and preprocessed datasets
-├── models/                # Trained models and checkpoints
-├── src/                   # Source code (training, utils, etc.)
-├── notebooks/             # Jupyter notebooks for analysis
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+EV_Charge/
+├── data/               # Datasets (raw & processed)
+├── notebooks/          # Jupyter notebooks for EDA & experiments
+├── src/                # Source code (training scripts, utilities)
+├── models/             # Saved models / checkpoints
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 ```
 
 ---
 
-## ⚒️ Getting Started
+## ⚡ Getting Started
 
-### 1. Clone the repository
+### 1. Clone this repository
 
 ```bash
-git clone https://github.com/shubanborkar/EV-Charge-Demand.git
-cd EV-Charge-Demand
+git clone https://github.com/Eswar2131/-EV_Charge.git
+cd -EV_Charge
 ```
 
 ### 2. Create a virtual environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -53,58 +55,34 @@ pip install -r requirements.txt
 ### 4. Run an example
 
 ```bash
-python src/train_model.py  # Replace with actual script name
+python src/train.py   # Replace with your training script
 ```
 
 ---
 
 ## 🎯 Use Cases
 
-* Forecast demand at individual or regional EV stations
-* Support smart charging and grid balancing
-* Help optimize EV infrastructure rollout
+* Forecasting EV demand at charging stations
+* Supporting smart charging & grid balancing
+* Planning future EV infrastructure deployment
 
 ---
 
-## 🔹 Future Work
+## 🔮 Future Enhancements
 
-* Integrate real-time data streams
-* Federated learning for privacy-preserving predictions
-* Attack-resilience mechanisms
-
----
-
-## 📅 Citation
-
-If you use this code or concept, please cite appropriately.
-
-```
-@misc{shuban_evcharge_2025,
-  author = {Shuban Borkar},
-  title = {EV Charge Demand Forecasting},
-  year = {2025},
-  howpublished = {\url{https://github.com/shubanborkar/EV-Charge-Demand}}
-}
-```
+* Real-time demand integration
+* Model optimization for large-scale data
+* API for live forecasting
 
 ---
 
-## 👥 Contributing
+## 👥 Contributors
 
-Contributions are welcome!
-
-* Fork the repo
-* Create a new branch
-* Submit a pull request with a clear description
-
----
-
-## 📞 Contact
-
-Created by **Shuban Borkar**. Reach out via [GitHub Issues](https://github.com/shubanborkar/EV-Charge-Demand/issues) for questions or suggestions.
+Created and maintained by **Eswar M**.
+Contributions are welcome — fork the repo, make changes, and submit a PR 🚀
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is released under the **MIT License**.
